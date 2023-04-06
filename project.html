@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+  </head>
+  <style>
+    body {
+      background-image: url(servey.jpg);
+      background-size: cover;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 100px;
+    }
+    form {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+    form .cant {
+      color: rgba(0, 255, 247, 0.8);
+    }
+
+    form .box {
+      width: 30%;
+    }
+    h2 {
+      color: red;
+    }
+    form .head1 {
+      color: blueviolet;
+    }
+  </style>
+  <body>
+    <div class="heading">
+      <h1>Survey form for daughter</h1>
+    </div>
+    <form>
+      <div>
+        <label class="cant">Name</label><br /><br />
+        <input
+          type="name"
+          name="name"
+          placeholder="Enter your name"
+          class="box"
+        /><br /><br />
+        <label class="cant">Age</label><br /><br />
+        <input
+          type="age"
+          name="age"
+          placeholder="Enter your age"
+          class="box"
+        /><br /><br />
+        <label class="cant">Email</label><br /><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="enter your email"
+          class="box"
+        /><br /><br />
+        <label class="cant">which caste you belong</label><br /><br />
+      </div>
+      <div id="option">
+        <select>
+          <option>General</option>
+          <option>Obc</option>
+          <option>Muslim</option>
+          <option>Jain</option>
+        </select>
+      </div>
+      <br />
+      <h2>check that things your daughter do</h2>
+      <div class="head1">Playing cricket<input type="checkbox" /></div>
+      <div class="head1">Reading books<input type="checkbox" /></div>
+      <div class="head1">Dancing<input type="checkbox" /></div>
+      <div class="head1">Writting<input type="checkbox" /></div>
+      <h1>Pick Up lines</h1>
+  <h2>In about 20 words construct a pick up line which will atract my daugther</h2>
+<h2>
+  Pick Up line
+  <textarea rows="5" cols="17"></textarea><br/>
+  <button>Submit</button>
+    </form>
+
+  </body>
+</html>
